@@ -1,0 +1,69 @@
+# Dependencies - Node modules (CẢ FRONTEND VÀ BACKEND)
+**/node_modules/
+node_modules/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables
+.env
+.env.local
+.env.production
+**/.env
+
+# Build outputs
+**/dist/
+**/build/
+.next/
+out/
+
+# Development
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Uploads (Backend)
+backend/uploads/
+
+# Testing
+coverage/
+.nyc_output/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
